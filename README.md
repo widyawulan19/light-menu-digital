@@ -187,7 +187,7 @@ This project is open-source and available under the MIT License.
 
 
 ## LIVE PREVIRW / Deploy link 
-https://bold-menu-digital.vercel.app
+https://light-menu-digital.vercel.app/
 
 ## Preview 
 ![Bold Welcome Screen](./public/welcomePic.png)
