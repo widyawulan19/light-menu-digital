@@ -1,4 +1,4 @@
-# Digital Menu Web App — Restaurant Edition
+# Digital Menu Web App — Restaurant Edition "THE LOCAL"
 
 A modern, mobile-first digital menu web app designed to deliver a seamless, app-like experience directly from the browser.
 
