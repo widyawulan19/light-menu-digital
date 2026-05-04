@@ -66,7 +66,7 @@ function MenuLight({data}) {
                 {currentCategory.items.map((item,index) =>(
                     <div className="ml-card" key={index}>
                         <div className="ml-name">
-                            <h3>{item.name}</h3>
+                            <h3>{index + 1}.  {item.name}</h3>
                             <p className='desc'>{item.description}</p>
                         </div>
                         
