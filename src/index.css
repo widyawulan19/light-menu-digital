@@ -4,17 +4,31 @@
 :root {
   /* 🎨 COLORS */
 
-  --color-primary: #FF7A00;
-  --color-bg: #0F0F0F;
-  --color-card: #1A1A1A;
-  --color-secondary-bg: #2b2b2c;
 
-  --color-text-primary: #FFFFFF;
-  --color-text-secondary: #B0B0B0;
-  --color-accent: #FFB347;
+  /* Background */
+  --color-bg-primary: #F4F1EC;
 
-  --color-border: #2A2A2A;
-  --color-divider: #333333;
+  --color-bg: #f0ece4;
+  --color-bg-secondary: #E8E2D8;
+
+  /* Text */
+  --color-text-primary: #2B2B2B;
+  --color-text-secondary: #6F6F6F;
+
+  /* Accent */
+  --color-accent: #C9A46A;
+  --color-logo: #c8ac7e;
+
+  /* Divider / Border */
+  --color-border: #CFC8BD;
+
+  /* Optional (food tone support) */
+  --color-brown: #8B5E3C;
+  --color-warm: #B97A56;
+
+  /* Font Family */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Open Sans', sans-serif;
 
   /* 🔤 TYPOGRAPHY */
   --text-xl: 1.5rem;
@@ -57,6 +71,7 @@
 body {
   /* font-family: 'Inter', sans-serif; */
   font-family: "Roboto Slab", serif;
+
   background: var(--color-secondary-bg);
   color: var(--color-text-primary);
   line-height: 1.4;

@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Welcome from './Pages/Welcome';
 import { Routes, Route } from 'react-router-dom';
-import Menu from './Pages/Menu';
-import ChoosePage from './Pages/ChoosePage';
-import BoldWelcome from './Pages/BoldWelcome';
-import MealsMenu from './Pages/MealsMenu';
-import dataMeals from './Data/MealsData.json';
+import WelcomeLight from './Pages/WelcomeLight';
+import MenuLight from './Pages/MenuLight';
+import ChooseLight from './Pages/ChooseLight';
+import dataMenu from './Data/DataMenu.json'
 
 function App() {
   return (
     <div className='App'>
       <Routes>
-        <Route path="/welcome" element={<Welcome />} />
-        <Route path='/menu' element={<Menu />} />
-        <Route path='/choose' element={<ChoosePage />} />
-
-        <Route path='/' element={<BoldWelcome />} />
-        <Route path='/meals-menu/:categoryName' element={<MealsMenu data={dataMeals} />} />
+        <Route path='/' element={<WelcomeLight />} />
+        <Route path='/choose-light' element={<ChooseLight />} />
+        <Route path='/menu-light/:category' element={<MenuLight data={dataMenu} />} />
       </Routes>
     </div>
   );
