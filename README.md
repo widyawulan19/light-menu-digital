@@ -190,7 +190,7 @@ This project is open-source and available under the MIT License.
 https://bold-menu-digital.vercel.app
 
 ## Preview 
-![Bold Welcome Screen](./public/assets/welcome.png)
-![Choose Screen](./public/assets/choose.png)
-![Meals Menu Screen](./public/assets/menu.png)
+![Bold Welcome Screen](./public/welcomePic.png)
+![Choose Screen](./public/listPic.png)
+![Meals Menu Screen](./public/menuPic.png)
 
